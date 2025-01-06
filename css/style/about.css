@@ -1,0 +1,65 @@
+.about {
+    position: relative;
+    padding: 0 7%;
+    height: 75vh;
+    background-color: #fff; 
+    
+
+}
+
+.about-container {
+}
+
+h6 {
+    margin-bottom: 15px;
+}
+div h6 span {
+    color: #3e9bf3;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    left: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-img {
+    width: 300px;
+}
+
+#img-about{
+    margin-right: 25px;  
+    height: 67vh;
+    width: 300px;
+}
+
+.about-description {
+    position: absolute;
+    float: right;
+    width: 500px;
+    height: 67vh;
+    padding: 40px 65px 40px 0;
+    right: 0;
+    top: 0;
+}
+
+.about-description p {
+    font-family: arial, sans-serif;
+}
+
+.about-description .row div {
+    margin-right: 20px;
+}
+
+.row .btn {
+    padding: 5px;
+    font-family: arial, sans-serif;
+    border: 1px solid;
+    background-color: #3e9bf3;
+    color: #fff;
+    width: 100px;
+}
